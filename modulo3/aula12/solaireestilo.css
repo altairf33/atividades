@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*coluna lateral*/
+.coluna-lateral {-webkit-flex: 1;-ms-flex: 1;flex: 1;}
+.promocao{padding:15px;background-color:red;margin-bottom:5px;}
+.principal {display: -webkit-flex;display: flex;}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: black;
+    background-color: white;
+}
+/*cabecalho*/
+
+header{
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(125deg, #078c0e,white,#cf0202);
+}
+
+header h1{
+    font-size: 35px;
+}
+
+header p{
+    font-size: 15px;
+    font-style: italic;
+}
+
+header nav ul li{
+    display: inline;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+header nav ul li a:hover{
+    text-decoration: underline;
+    color: #078c0e;
+}
+
+header nav ul li a:active{
+    text-decoration: underline;
+    color: black;
+}
+
+/*nacegacao principal*/
+section article{
+    padding: 40px;
+    margin: 10px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h2::before{
+    content: "☀️";
+     margin-right: 5px;
+}
+
+section h1{
+    padding: 20px;
+}
+
+section article ul li{
+    display: inline;
+}
+
+.produtos{
+    width: 300px;
+}
+
+.servicos::after{
+    content: "✆💬";
+}
+
+/*rodape*/
+
+footer{
+    text-align: center;
+    color: gray;
+}
+
+footer a{
+    text-decoration: none;
+    color: gray;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    text-decoration: overline;
+}
+
+

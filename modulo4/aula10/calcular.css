@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(125deg, black,darkblue);
+    color: aliceblue;
+}
+
+header h1{
+    font-size: 65px;
+}
+
+header p{
+    font-style: italic;
+}
+
+body{
+    background: black;
+}
+
+main {
+    padding: 20px;
+    color: aliceblue;
+}
+
+main section article{
+    padding: 40px;
+    margin: 10px auto;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+section article h2{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+section article button{
+    font-size: 15px;
+    font-weight: bolder;
+    background: linear-gradient(125deg, black,darkblue);
+    padding: 5px;
+    color: aliceblue;
+}

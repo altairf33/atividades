@@ -1,0 +1,41 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto-branco {
+    color: white; /* Nome da cor */
+}
+a {
+	text-decoration: none;
+}
+a:focus{
+    color: white; /* Cor interna da letra */
+  	-webkit-text-stroke-width: 2px; /* Espessura da borda */
+ 	-webkit-text-stroke-color: red; /* Cor da borda */
+
+}
+a:hover{
+	color: white; /* Cor interna da letra */
+  	-webkit-text-stroke-width: 2px; /* Espessura da borda */
+  	-webkit-text-stroke-color: gray; /* Cor da borda */
+
+}
+a:active{
+	color: white; /* Cor interna da letra */
+  	-webkit-text-stroke-width: 2px; /* Espessura da borda */
+  	-webkit-text-stroke-color: black; /* Cor da borda */
+}
+body{
+	background: linear-gradient(135deg, black,darkblue);
+}
+
+.seletor-de-pagina{
+    text-align: center;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+footer a{
+    text-decoration: none;
+    color: aliceblue;
+}
