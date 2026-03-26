@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de advinhação</title>
+    <script src="scrips.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/icone.png" type="image/png">
+</head>
+<body>
+    <header>
+        <h1>Jogo de advinhação</h1>
+    </header>
+    <main>
+        <section id="explicao">
+            <h2>como o jogo funciona?</h2>
+            <p>Esse e um jogo em que você deve tentar advinhar qual o numero secreto <br>
+                em no maximo 10 tentativas o numero esta localizando entre 1 e 100
+            </p>
+        </section>
+        <section>
+            <label for="palpite" >digite seu palpite:</label><br>
+            <input type="number" id="palpite" placeholder="Digite apenas numeros"><br>
+            <button onclick="chute()">chutar</button>
+            <p id="dica"></p>
+            <p id="chances"></p>
+        </section>
+    </main>
+    
+</body>
+</html>
