@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>parquimetro</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Parquimetro</h1>
+    <h2>valores</h2>
+    <table>
+        <tr>
+            <td>tempo</td>
+            <td>valor</td>
+        </tr>
+        <tr>
+            <td>30 minutos</td>
+            <td>R$ 1.00</td>
+        </tr>
+        <tr>
+            <td>1 hora</td>
+            <td>R$ 1.75</td>
+        </tr>
+        <tr>
+            <td>2 horas</td>
+            <td>R$ 3.00</td>
+        </tr>
+    </table>
+
+    <p id="saldo">Saldo: R$ 0.00</p>
+    <p id="tempo"></p>
+    
+
+    <input type="number" id="valor" placeholder="Digite o valor">
+    <button onclick="parquimetro.recebeValor()">Inserir valor</button>
+
+    
+</body>
+</html>
